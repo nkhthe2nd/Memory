@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './memory_card.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
           title: Text('Someones Name'),
         ),
         body: Center(
-          child: Text('Memory Card'),
+          child: MemoryCard()
         ),
       ),
     );
